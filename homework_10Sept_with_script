@@ -1,0 +1,25 @@
+Script: 
+
+#!/bin/bash
+
+mkdir -p /home/animals/dogs
+mkdir -p /home/animals/cats
+mkdir -p /home/animals/fish
+touch /home/animals/dogs/pluto
+touch /home/animals/cats/garfield
+touch /home/animals/fish/nemo
+touch /tmp/adam
+mkdir /home/humans
+cp /tmp/adam /home/humans/
+touch /tmp/evA
+mv /tmp/evA /opt/eve
+mv /opt/eve /home/humans
+ls -la /home/humans
+
+  Command history: 
+   0 ls -la
+   1 mv /root/mySkrip.txt /home/
+   2 ls -la /home
+   3 chmod +x /home/mySkrip.txt 
+   4 /home/mySkrip.txt 
+   5 history > /tmp/homework_with_script_10Sept.txt
