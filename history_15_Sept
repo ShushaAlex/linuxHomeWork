@@ -1,8 +1,10 @@
+1 mkdir -p /home/user/start
+2 >> /home/user/start/1.txt
+3 echo "start" >> /home/user/start/1.txt
+4 date >> /home/user/start/1.txt 
+5 mkdir /opt/task
+6 cp /home/user/start/1.txt /opt/task/start.txt
+7 ls -a / | tail -4 >> /opt/task/start.txt  
 
-   1 mkdir -p /home/user/start
-   2 >> /home/user/start/1.txt
-   3 echo "start" >> /home/user/start/1.txt
-   4 date >> /home/user/start/1.txt 
-   5 mkdir /opt/task
-   6 cp /home/user/start/1.txt /opt/task/start.txt
-   7 ls -a / | tail -4 >> /opt/task/start.txt  
+но если речь идет про строчки, то 7 команду можно переписать так: 
+ls -la / | tail -4 >> /opt/task/start.txt 
