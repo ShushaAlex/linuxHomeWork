@@ -1,0 +1,21 @@
+Command history: 
+1. date >> file1.txt
+2. df -h | awk '{print $3}' | grep G >> file1.txt 
+3. history | tail -n 5 >> file1.txt 
+4. cat file1.txt 
+5. sudo cat /proc/cpuinfo | grep vendor >> file1.txt 
+6. nano file1.txt 
+7. ps -ef | tail -n +2 | wc -l >> file1.txt 
+8. export_file file1.txt 
+9. history >> history_24Sept.txt
+
+Export file: 
+Sun Sep 24 13:11:04 UTC 2023
+2.3G
+   7 nano file1.txt 
+   8 df -h | awk '{print $3}' | grep G >> file1.txt 
+   9 cat file1.txt 
+  10 df -h
+  11 history | tail -n 5 >> file1.txt 
+AuthenticX86
+33
