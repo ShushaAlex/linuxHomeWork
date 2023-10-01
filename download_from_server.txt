@@ -1,0 +1,16 @@
+/opt/220823_morning/Grigorchenko
+.
+  |- chumak
+  |- Grigorchenko
+  |  |- newfile.txt
+  |  |- testfile.txt
+  |- lenskyi
+  |- zemchenko
+  |- oldenburg
+  |- haiduk_iryna
+  |- OlgaVosHomWork
+  |- groisman
+  |- shemchuk
+  |- Ashurov
+  |- dmytro_morokhotin
+  |- kaschkarov
