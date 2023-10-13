@@ -1,5 +1,5 @@
 #!/bin/bash
 date
-USER="Alex"
-echo "Hello, $USER!"
+user="Alex"
+echo "Hello, $user!"
 pwd
