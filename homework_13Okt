@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "let's start!"
+  
+	for counter in {1..10}
+        do
+	      date +"%H:%M:%S"
+        ps -ef | sed '1d' | wc -l
+        sleep 1
+        done
+
+echo "for done"
+echo -n "CPU: "
+cat /etc/os-release | head -n 1 | awk '{print $1}' | sed 's/NAME="//'
+mkdir -p /opt/220823_morning/Grigorchenko/50files
+
+        for run in {1..50}
+        do
+	      touch /opt/220823_morning/Grigorchenko/50files/$run.txt
+        done
+
+echo "50 files are ready"
