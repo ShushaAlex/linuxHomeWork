@@ -1,0 +1,15 @@
+путь к скрипту на сервере: /opt/220823_morning/Grigorchenko/taskALEX.sh
+
+#!/bin/bash
+mkdir -p /opt/220823_morning/Grigorchenko/newfiles
+mkdir -p /opt/220823_morning/Grigorchenko/hwarchive
+
+        for var in {1..2}
+        do
+	filename="${var}$(date +%y.%m.%d)"
+        touch /opt/220823_morning/Grigorchenko/newfiles/$filename
+        done
+
+archivename="$(date +%y.%m.%d.%M)"
+tar -cvf /opt/220823_morning/Grigorchenko/hwarchive/$archivename.tar /opt/220823_morning/Grigorche$
+rm -r /opt/220823_morning/Grigorchenko/newfiles
